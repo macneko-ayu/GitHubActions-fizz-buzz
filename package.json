@@ -6,5 +6,8 @@
     "lint": "eslint .",
     "test": "mocha"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "mocha": "^8.0.1"
+  }
 }
