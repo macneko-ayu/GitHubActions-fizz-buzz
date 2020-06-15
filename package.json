@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
-    "test": "mocha"
+    "test": "nyc --reporter=html --reporter=text mocha"
   },
   "license": "MIT",
   "dependencies": {
@@ -13,6 +13,7 @@
   "devDependencies": {
     "@cybozu/eslint-config": "^10.0.4",
     "eslint": "^7.2.0",
+    "nyc": "^15.1.0",
     "prettier": "^2.0.5"
   }
 }
